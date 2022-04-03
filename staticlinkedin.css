@@ -1,0 +1,373 @@
+nav{
+    border: 1px solid;
+    border-radius: 20px;
+    z-index: 1;
+    width: 100%;
+    margin: 5px 25px;
+    display: flex;
+}
+.logo{
+    display: flex;
+    margin:5px;
+    padding: 10px;
+    width: 40%;
+    
+}
+ .logo > img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 10px;
+
+}
+.logo > input{
+    width:80%;
+    height: 45px;
+    float:right;
+    padding: 0px;
+    margin:10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #e5d5f3;
+
+}
+.middle-icon{
+    /*display: flex;*/
+    margin:5px 20px;
+    width: 35%;
+}
+.middle-icon > a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    color:var(--texr-color);
+}
+.for-drop img{
+    width: 50px;
+    height: 50px;
+    clip-path: circle();
+    
+}
+.dropdown {
+    display: flex;
+    margin: 10px;
+}
+.dropdown > p {
+    margin: 15px 10px 15px 10px;
+
+}
+.-sidebar{
+    width: 100%;
+    margin: 3px 10px;
+}
+.main{
+
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 25px;
+
+}
+.sidebar-profile-1{
+    background-image: url("https://th.bing.com/th/id/R.8abad08d4e1a9628d6321e2b4b816855?rik=JlIHrOB%2bNQgi%2fg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fDownload-Solid-Color-Backgrounds.jpg&ehk=Cjnc2c9xMsUTSx8QyY1tkShliOJOSTUWwNai%2bT54Tzs%3d&risl=&pid=ImgRaw&r=0");
+   background-size:  100% ;
+   background-repeat: no-repeat;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid;
+    
+
+}
+.sidebar-profile-1 > img{
+    width: 80%;
+    clip-path:circle();
+    padding: 10px;
+   
+}
+.sidebar-profile-1 > h3 {
+color: var(--headcolor);
+}
+.connections {
+    
+    margin-left: 5px;
+    border-bottom: 1px solid;
+  
+}
+.connections > h3{ 
+    color: var(--headcolor);
+    text-transform: capitalize;
+}
+.connections > span{
+    float: right;
+    color:var(--headcolor);
+    padding: 0;
+    margin-right: 10px;
+}
+.access {
+  border-bottom: 1px solid;
+  margin: 10px 5px 10px 5px;
+
+
+}
+.my-items{
+    margin:5px 5px;
+    padding: 5px;
+    
+}
+.my-items > h3 {
+    margin: 10px;
+    color: var(--headcolor);
+}
+.sidebar-2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 25px; 
+}
+.sidebar-2 > h4{
+    margin: 15px 5px;
+    color: var(--headcolor);
+}
+.sidebar-2 > p ,i{
+    margin: 0px 5px;
+}
+.middle-div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content-1{
+    width: 100%;
+    margin:10px auto;
+    justify-content:space-around;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.main-content-top{
+    width: 100%;
+    display: flex;
+    margin: 0 15px;
+}
+
+.main-content-top > img{
+    width:60px;
+     clip-path: circle();
+     margin: 10px 5px;
+     justify-items: center;
+}
+.main-content-top > input{
+    width:70%;
+    height: 50px;
+    padding: 10px;
+    margin:15px 40px;
+    border-radius: 20px;
+    background-color: #e5d5f3;
+}
+.main-content-photo{
+    margin: 0 15px;
+    padding: 10px;
+    text-align: center;
+
+
+    
+
+}
+.main-content-photo > a{
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+    color:var(--texr-color);
+    
+}/*---------end of 1-main content--*/
+
+.main-content-myntra{
+    width: 100%;
+    margin:15px auto;
+    border: 1px solid;
+    border-radius: 20px;
+
+
+}
+.myntra-logo{
+    display: flex;
+}
+.main-content-myntra > .myntra-logo{
+    width: 100%;
+    margin: 5px 15px;
+}
+.left{
+display: flex;
+margin: 5px 10px;
+width: 100px;
+}
+.myntra-logo > a {
+    width: 20px;
+    float: right;
+    color:var(--texr-color);
+    margin-left: 350px;
+ }
+ .main-content-myntra > .myntra-logo > a{
+
+}
+.rcb-img > img{
+    width: 100%;
+    margin: 10px 0;
+    
+
+}
+.activity {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.activity > a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px auto;
+    color: var(--texr-color);
+}
+.main-content-yesh{
+    width: 100%;
+    margin:15px auto;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+
+
+}
+.yesh-logo > a{
+    width: 20px;
+    float: right;
+    color: var(--texr-color);
+    margin-left: 350px;   
+}
+.main-content-yesh > p{
+    margin: 5px 15px;
+    color: var(--texr-color);
+    align-content: justify;
+}
+.main-content-yesh > .yesh-logo {
+    display: flex;
+    margin: 5px 10px;
+}
+.main-content-yesh > .yesh-logo > img{
+    width:100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.main-content-yesh >.video >video{
+    width:80%;
+    height: 250px;
+    margin: 10px 30px;
+    
+
+}
+.right-main{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+ .heading-1{
+     margin: 5px;
+     display: flex;
+     flex-direction: column;
+    margin: 10px 25px;
+    border: 1px solid;
+    border-radius: 10px;
+   
+ }
+ 
+ .heading-1 > h4 , h3,i  {
+     margin: 5px ;
+     font-weight: 800;
+     color: var(--headcolor);
+     font-weight: 400;
+
+ }
+ #for-heading{
+    margin: 5px 5px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+ }
+ #for-heading >  p {
+     margin:5px 10px 5px 100px;
+
+ }
+ .heading-1 > p{
+     margin: 5px 25px;
+ }
+ 
+ 
+ .image-set{
+     display: flex;
+     margin: 5px 10px;
+     
+ }
+ .image-set > p{
+     margin: 5px 10px 5px 100px;
+ }
+ .flex-column{
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+ }
+ .image-set > img{
+     width: 60px;
+     height: 60px;
+ }
+ .follow{
+    border: 1px solid var(--texr-color);
+     border-radius: 20px;
+     margin:5px 30px ;
+     padding: 10px;
+      text-align: center;
+ }
+ .follow > a{
+     text-decoration: none;
+     color:var(--texr-color);
+
+ }
+
+
+
+@media screen and (max-width:768px) {
+    nav{
+        display: block;
+        margin: 0 auto;
+    } 
+    .-sidebar {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+
+    
+    .dropdown{
+        display: block;
+    }
+    .middle-div{
+        width:100%;
+        margin: 20px auto;;
+        
+    }
+    .right-main{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .linkedin{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+}

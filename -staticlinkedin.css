@@ -1,0 +1,22 @@
+:root{
+    --background-color:rgb(247, 236, 236);
+    --texr-color:rgb(107, 96, 96);
+    --headcolor:rgb(122, 194, 243);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.linkedin{
+    position: relative;
+    top:60px;
+    display: flex;
+    background-color:rgb(247, 236, 236) ;
+    margin: 5px 15px;
+    color: rgb(107, 96, 96);
+}
